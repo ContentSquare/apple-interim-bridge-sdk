@@ -25,7 +25,7 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "ContentsquareInterimBridge",
-            url: "https://github.com/ContentSquare/apple-interim-bridge-sdk/releases/download/0.9.1-alpha.1/package.zip",
+            url: "https://github.com/ContentSquare/apple-interim-bridge-sdk/releases/download/0.9.1/package.zip",
             checksum: "cddc4777b16d3c7a1834591077db7f8b7a529f9f1a69e8e7d3193b04e1d4bfc6"
         ),
     ]
