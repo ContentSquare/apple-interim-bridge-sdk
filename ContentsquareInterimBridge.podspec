@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'ContentsquareInterimBridge'
-    s.version = '0.9.0'
+    s.version = '0.9.1'
     s.summary = 'ContentsquareInterimBridge enables combined analysis between Heap and Contentsquare.'
     s.homepage = 'https://docs.contentsquare.com/ios'
     s.author = { 'Contentsquare' => 'contact@contentsquare.com' }
