@@ -12,8 +12,8 @@ let package = Package(
             targets: ["__ContentsquareInterimBridge"])
     ],
     dependencies: [
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.8.3"),
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", from: "4.41.0"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.8.6"),
+        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK_DYNAMIC.git", from: "4.42.1"),
     ],
     targets: [
         .target(
@@ -25,8 +25,8 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "ContentsquareInterimBridge",
-            url: "https://github.com/ContentSquare/apple-interim-bridge-sdk/releases/download/0.9.2/package.zip",
-            checksum: "077f60460e124c2a89523cf1fe7ff3fdc6fe2a134874db25b6ec7088c1ae2ce3"
+            url: "https://github.com/ContentSquare/apple-interim-bridge-sdk/releases/download/0.10.0/package.zip",
+            checksum: "ccc2e3805a4f4934e4c7071e644c184f0d646b92bacb4a76e5d3dc04ca5c72fd"
         ),
     ]
 )
