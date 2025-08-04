@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'ContentsquareInterimBridge'
-    s.version = '0.10.0'
+    s.version = '0.11.0'
     s.summary = 'ContentsquareInterimBridge enables combined analysis between Heap and Contentsquare.'
     s.homepage = 'https://docs.contentsquare.com/ios'
     s.author = { 'Contentsquare' => 'contact@contentsquare.com' }
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     s.swift_version = '5.1'
   
     s.dependency 'HeapSwiftCore', '~> 0.8'
-    s.dependency 'CS_iOS_SDK', '~> 4.42.1'
+    s.dependency 'CS_iOS_SDK', '~> 4.43.0'
 
     s.vendored_frameworks = 'ContentsquareInterimBridge.xcframework'
 end
